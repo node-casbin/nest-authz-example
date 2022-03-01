@@ -8,7 +8,7 @@ import { AuthController } from './controllers/auth.controller';
 import { UserPermissionController } from './controllers/user-permission.controller';
 import { UserRoleController } from './controllers/user-role.controller';
 
-import { AuthZModule, AUTHZ_ENFORCER } from 'nest-authz/src';
+import { AuthZModule, AUTHZ_ENFORCER } from 'nest-authz';
 import { PassportModule } from '@nestjs/passport';
 import { JwtModule } from '@nestjs/jwt';
 import { ConfigModule } from './config.module';
