@@ -21,7 +21,7 @@ const roles: Role[] = [
     description: 'can read own user',
   },
   {
-    id: '2d6f41f2-33ca-43e2-a415-ef163649c60d',
+    id: '2d6f41f2-33ca-43e2-a415-ef163649c601',
     name: 'manager',
     description: ' can read any user',
   },
